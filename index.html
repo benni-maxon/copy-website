@@ -1,39 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Web App</title>
+        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
-
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
-
-</head>
-
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <!-- add link for page specific css -->
+    </head>
 
     <main>
-
+        <header>
+            <nav>
+                <p>
+                    <img
+                        src="https://placekitten.com/20/20"
+                        alt="placekitten kitty pic"
+                    />OpenCritic
+                </p>
+                <p>Browse Games</p>
+                <p>Calendar</p>
+                <p>Your Lists</p>
+                <p>FAQ</p>
+            </nav>
+        </header>
+        <body>
+            <section id="popular-games">
+                <div id="pop-head">
+                    <h2>Popular Games</h2>
+                    <p>Don't miss the most popular games on OpenCritic today</p>
+                </div>
+                <div id="pop-body">
+                    <img src="https://placekitten.com/110/200" alt="placekitten kitty pic" />
+                    <img src="https://placekitten.com/100/220" alt="placekitten kitty pic" />
+                    <img src="https://placekitten.com/100/215" alt="placekitten kitty pic" />
+                    <img src="https://placekitten.com/100/210" alt="placekitten kitty pic" />
+                    <img src="https://placekitten.com/100/219" alt="placekitten kitty pic" />
+                    <img src="https://placekitten.com/108/212" alt="placekitten kitty pic" />
+                    <img src="https://placekitten.com/100/200" alt="placekitten kitty pic" />
+                </div>
+            </section>
+            <section id="categories">
+                <div id="recently-released" class="category">
+                    <h2>RECENTLY RELEASED</h2>
+                    <p>
+                        <img src="https://placekitten.com/20/20" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/30/30" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/20/20" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/50/50" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/20/20" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/30/30" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/20/20" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/20/20" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                </div>
+                <div id="upcoming-releases" class="category">
+                    <h2>UPCOMING RELEASES</h2>
+                    <p>
+                        <img src="https://placekitten.com/20/20" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/30/30" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/40/40" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/20/20" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/30/30" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/40/40" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/20/20" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/20/20" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                </div>
+                <div id="reviewed-today" class="category">
+                    <h2>REVIEWED TODAY</h2>
+                    <p>
+                        <img src="https://placekitten.com/20/20" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/30/30" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/20/20" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/20/20" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/40/40" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/20/20" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/30/30" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                    <p>
+                        <img src="https://placekitten.com/40/40" alt="placekitten kitty pic" /> 90
+                        LOREM IPSUM
+                    </p>
+                </div>
+            </section>
+        </body>
     </main>
-
-</body>
-
 </html>
