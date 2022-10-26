@@ -1,20 +1,39 @@
+main {
+    font-family: sans-serif;
+}
+
 nav {
-    background-color: rgb(32, 31, 31);
-    grid-template-columns: ;
+    background-color: rgb(42, 41, 41);
     height: 65px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+nav p {
+    margin: 10px;
+}
+
+body {
+    /* max-width: 1140px; */
+    padding: 15px;
 }
 
 #popular-games {
     height: 390px;
-    background-color: darkorchid;
+    /* background-color: darkorchid; */
+    justify-content: center;
 }
 
 #pop-head {
     height: 110px;
+    padding: 20px;
 }
 
 #pop-body {
     height: 280px;
+    max-width: fit-content;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
@@ -22,19 +41,26 @@ nav {
 #pop-body img {
     height: 213px;
     width: 142px;
-    padding: 0px;
-    margin: 0px;
+    padding: 5px;
+    margin: 5px;
 }
 
 #categories {
     height: 424px;
-    background-color: blue;
+    /* background-color: blue; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
+    max-width: 1140px;
 }
 
-#categories div {
-    border: 1px solid black;
-    margin: 0px 10px;
+.category {
+    /* border: 1px solid black; */
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+}
+
+.category p img {
+    width: 20px;
+    height: 20px;
 }
